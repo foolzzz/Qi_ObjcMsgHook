@@ -341,12 +341,18 @@ uintptr_t after_objc_msgSend() {
 // https://blog.nelhage.com/2010/10/amd64-and-va_arg/
 // http://infocenter.arm.com/help/topic/com.arm.doc.ihi0055b/IHI0055B_aapcs64.pdf
 // https://developer.apple.com/library/ios/documentation/Xcode/Conceptual/iPhoneOSABIReference/Articles/ARM64FunctionCallingConventions.html
+/*
+ 跳转到value（通过x12)
+ */
 #define call(b, value) \
 __asm volatile ("stp x8, x9, [sp, #-16]!\n"); \
 __asm volatile ("mov x12, %0\n" :: "r"(value)); \
 __asm volatile ("ldp x8, x9, [sp], #16\n"); \
 __asm volatile (#b " x12\n");
 
+/*
+ 把x0到x8存储到栈上
+ */
 #define save() \
 __asm volatile ( \
 "stp x8, x9, [sp, #-16]!\n" \
@@ -355,6 +361,9 @@ __asm volatile ( \
 "stp x2, x3, [sp, #-16]!\n" \
 "stp x0, x1, [sp, #-16]!\n");
 
+/*
+ 从栈上恢复寄存器
+ */
 #define load() \
 __asm volatile ( \
 "ldp x0, x1, [sp], #16\n" \
@@ -363,6 +372,7 @@ __asm volatile ( \
 "ldp x6, x7, [sp], #16\n" \
 "ldp x8, x9, [sp], #16\n" );
 
+
 #define link(b, value) \
 __asm volatile ("stp x8, lr, [sp, #-16]!\n"); \
 __asm volatile ("sub sp, sp, #16\n"); \
@@ -370,38 +380,52 @@ call(b, value); \
 __asm volatile ("add sp, sp, #16\n"); \
 __asm volatile ("ldp x8, lr, [sp], #16\n");
 
+/*
+ 返回
+ */
 #define ret() __asm volatile ("ret\n");
 
+// 裸函数
 __attribute__((__naked__))
 static void hook_Objc_msgSend() {
     // Save parameters.
+    /// before之前保存objc_msgSend的参数
     save()
     
+    /// 将objc_msgSend执行的下一个函数地址传递给before_objc_msgSend的第二个参数x0 self, x1 _cmd, x2: lr address
     __asm volatile ("mov x2, lr\n");
     __asm volatile ("mov x3, x4\n");
     
     // Call our before_objc_msgSend.
-    call(blr, &before_objc_msgSend)
+    /// 执行before_objc_msgSend
+    call(blr, &before_objc_msgSend) // 需要参数 self, _cmd, lr
     
     // Load parameters.
+    /// 恢复objc_msgSend参数，并执行
     load()
     
     // Call through to the original objc_msgSend.
     call(blr, orig_objc_msgSend)
     
+    
     // Save original objc_msgSend return value.
+    /// after之前保存objc_msgSend执行完成的参数
     save()
     
     // Call our after_objc_msgSend.
+    /// 调用 after_objc_msgSend
     call(blr, &after_objc_msgSend)
     
     // restore lr
+    /// 将after_objc_msgSend返回的参数放入lr,恢复调用before_objc_msgSend前的lr地址
     __asm volatile ("mov lr, x0\n");
     
     // Load original objc_msgSend return value.
+    /// 恢复objc_msgSend执行完成的参数
     load()
     
     // return
+    /// 方法结束,继续执行lr
     ret()
 }
 

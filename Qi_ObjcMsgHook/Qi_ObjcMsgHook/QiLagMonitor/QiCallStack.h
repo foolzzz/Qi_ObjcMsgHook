@@ -22,6 +22,7 @@ typedef NS_ENUM(NSUInteger, QiCallStackType) {
 
 + (NSString *)callStackWithType:(QiCallStackType)type;
 
+// 获取栈
 extern NSString *qiStackOfThread(thread_t thread);
 
 @end

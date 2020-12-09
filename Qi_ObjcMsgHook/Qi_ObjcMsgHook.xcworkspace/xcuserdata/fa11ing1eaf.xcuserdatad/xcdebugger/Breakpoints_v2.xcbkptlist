@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1C049829-70CC-49D3-BB27-EA10F6886645"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0EFE97AD-75A6-4424-ADAF-2A1DB1023B86"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Qi_ObjcMsgHook/SceneDelegate.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "-scene:willConnectToSession:options:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "68BB9C3F-973B-442B-8756-256C02334EC0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Qi_ObjcMsgHook/QiLagMonitor/QiCallTrace.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "+appendRecord:to:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3CB5C6A9-642B-464C-88F0-E9C08063929A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Qi_ObjcMsgHook/QiLagMonitor/QiCallTraceCore.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "277"
+            endingLineNumber = "277"
+            landmarkName = "push_call_record(_self, _cls, _cmd, lr)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "24777DC5-5590-414B-A427-3086D72FAEC6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Qi_ObjcMsgHook/QiLagMonitor/QiCallTraceCore.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "393"
+            endingLineNumber = "393"
+            landmarkName = "hook_Objc_msgSend()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "511AC9E9-5EF7-4F1D-80C1-C62AC75DD62A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Qi_ObjcMsgHook/QiLagMonitor/QiCallTraceCore.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "397"
+            endingLineNumber = "397"
+            landmarkName = "hook_Objc_msgSend()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "48FF17E5-5484-47C6-88AA-EA4A15ABB7EC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Qi_ObjcMsgHook/QiLagMonitor/QiCallTraceCore.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "399"
+            endingLineNumber = "399"
+            landmarkName = "hook_Objc_msgSend()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6A182B8A-2AEB-4F2D-A541-1810FE87FBFC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Qi_ObjcMsgHook/QiLagMonitor/QiCallTraceCore.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "401"
+            endingLineNumber = "401"
+            landmarkName = "hook_Objc_msgSend()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99785ADE-4A8B-404A-B494-C285BC4AE234"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Qi_ObjcMsgHook/QiLagMonitor/QiCallTraceCore.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "405"
+            endingLineNumber = "405"
+            landmarkName = "hook_Objc_msgSend()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7AABE6C3-882D-4883-9A8B-D16CD71D71C6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Qi_ObjcMsgHook/QiLagMonitor/QiCallTraceCore.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "408"
+            endingLineNumber = "408"
+            landmarkName = "hook_Objc_msgSend()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D0FA8F5-11A7-4A61-A0DD-F36D34E04201"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Qi_ObjcMsgHook/QiLagMonitor/QiCallTraceCore.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "413"
+            endingLineNumber = "413"
+            landmarkName = "hook_Objc_msgSend()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "610FB97E-D50C-44D2-AA07-940B30EB00CD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Qi_ObjcMsgHook/QiLagMonitor/QiCallTraceCore.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "417"
+            endingLineNumber = "417"
+            landmarkName = "hook_Objc_msgSend()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D873568-6F7F-4929-8318-73312F414308"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Qi_ObjcMsgHook/QiLagMonitor/QiCallTraceCore.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "421"
+            endingLineNumber = "421"
+            landmarkName = "hook_Objc_msgSend()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "40CB7B65-507A-431C-A8DC-D12F762C901D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Qi_ObjcMsgHook/QiLagMonitor/QiCallTraceCore.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "425"
+            endingLineNumber = "425"
+            landmarkName = "hook_Objc_msgSend()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "A2AB7959-69DA-404F-B792-2F609DF433D1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x1041ef674">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3F0CE6C8-5410-437A-906F-24AE9B28B306"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Qi_ObjcMsgHook/QiLagMonitor/QiCallTraceCore.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "390"
+            endingLineNumber = "390"
+            landmarkName = "hook_Objc_msgSend()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "ABD99A3B-B131-40AE-9585-60D5505FF02F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x1009f3674">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "D9873ED7-949B-4358-8BED-61EC3221D27E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x1009f36a0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "4219EB42-FA22-48EB-95D8-D9B3BF950F67"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x100b92818">
+            <Locations>
+               <Location
+                  uuid = "4219EB42-FA22-48EB-95D8-D9B3BF950F67 - c9976c738d1b0781"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "before_objc_msgSend"
+                  moduleName = "Qi_ObjcMsgHook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fa11ing1eaf/MacOS/Qi_ObjcMsgHook/Qi_ObjcMsgHook/Qi_ObjcMsgHook/QiLagMonitor/QiCallTraceCore.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "333"
+                  endingLineNumber = "333"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "063F8F73-6A3E-455D-9E13-35FEE65B3278"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x100b927cc">
+            <Locations>
+               <Location
+                  uuid = "063F8F73-6A3E-455D-9E13-35FEE65B3278 - c9976c738d1b0781"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "before_objc_msgSend"
+                  moduleName = "Qi_ObjcMsgHook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fa11ing1eaf/MacOS/Qi_ObjcMsgHook/Qi_ObjcMsgHook/Qi_ObjcMsgHook/QiLagMonitor/QiCallTraceCore.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "331"
+                  endingLineNumber = "331"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "8608F562-82E8-44B6-87BD-6F406E1D7093"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x100b9369c">
+            <Locations>
+               <Location
+                  uuid = "8608F562-82E8-44B6-87BD-6F406E1D7093 - 1444f155bb2205fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hook_Objc_msgSend"
+                  moduleName = "Qi_ObjcMsgHook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fa11ing1eaf/MacOS/Qi_ObjcMsgHook/Qi_ObjcMsgHook/Qi_ObjcMsgHook/QiLagMonitor/QiCallTraceCore.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "408"
+                  endingLineNumber = "408"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "1722D4EF-A29C-4F92-8973-A1335D3E35A0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x100b936c8">
+            <Locations>
+               <Location
+                  uuid = "1722D4EF-A29C-4F92-8973-A1335D3E35A0 - 1444f155bb2205fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hook_Objc_msgSend"
+                  moduleName = "Qi_ObjcMsgHook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fa11ing1eaf/MacOS/Qi_ObjcMsgHook/Qi_ObjcMsgHook/Qi_ObjcMsgHook/QiLagMonitor/QiCallTraceCore.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "417"
+                  endingLineNumber = "417"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "D50A6D3F-3E4F-4766-91F4-30DDD4E50885"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x100b9366c">
+            <Locations>
+               <Location
+                  uuid = "D50A6D3F-3E4F-4766-91F4-30DDD4E50885 - 1444f155bb2205fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hook_Objc_msgSend"
+                  moduleName = "Qi_ObjcMsgHook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fa11ing1eaf/MacOS/Qi_ObjcMsgHook/Qi_ObjcMsgHook/Qi_ObjcMsgHook/QiLagMonitor/QiCallTraceCore.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "401"
+                  endingLineNumber = "401"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "F5E0FFCF-FB02-460C-B9E5-418FAE88B620"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x100b93670">
+            <Locations>
+               <Location
+                  uuid = "F5E0FFCF-FB02-460C-B9E5-418FAE88B620 - 1444f155bb2205fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hook_Objc_msgSend"
+                  moduleName = "Qi_ObjcMsgHook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fa11ing1eaf/MacOS/Qi_ObjcMsgHook/Qi_ObjcMsgHook/Qi_ObjcMsgHook/QiLagMonitor/QiCallTraceCore.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "401"
+                  endingLineNumber = "401"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "95D05E9D-72BB-42BC-A02E-F4929ABC0495"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x100b93674">
+            <Locations>
+               <Location
+                  uuid = "95D05E9D-72BB-42BC-A02E-F4929ABC0495 - 1444f155bb2205fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hook_Objc_msgSend"
+                  moduleName = "Qi_ObjcMsgHook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fa11ing1eaf/MacOS/Qi_ObjcMsgHook/Qi_ObjcMsgHook/Qi_ObjcMsgHook/QiLagMonitor/QiCallTraceCore.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "405"
+                  endingLineNumber = "405"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "951141AA-571F-4B17-BB9F-856B9365CDE5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x100b936a0">
+            <Locations>
+               <Location
+                  uuid = "951141AA-571F-4B17-BB9F-856B9365CDE5 - 1444f155bb2205fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hook_Objc_msgSend"
+                  moduleName = "Qi_ObjcMsgHook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fa11ing1eaf/MacOS/Qi_ObjcMsgHook/Qi_ObjcMsgHook/Qi_ObjcMsgHook/QiLagMonitor/QiCallTraceCore.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "413"
+                  endingLineNumber = "413"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "EBA41D41-6E01-4FB5-954F-525B26F3C3B1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x100b936cc">
+            <Locations>
+               <Location
+                  uuid = "EBA41D41-6E01-4FB5-954F-525B26F3C3B1 - 1444f155bb2205fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hook_Objc_msgSend"
+                  moduleName = "Qi_ObjcMsgHook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fa11ing1eaf/MacOS/Qi_ObjcMsgHook/Qi_ObjcMsgHook/Qi_ObjcMsgHook/QiLagMonitor/QiCallTraceCore.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "421"
+                  endingLineNumber = "421"
+                  offsetFromSymbolStart = "140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "0AA11655-868F-4311-8D7D-C5FB3E3D786A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x100b93640">
+            <Locations>
+               <Location
+                  uuid = "0AA11655-868F-4311-8D7D-C5FB3E3D786A - 1444f155bb2205fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hook_Objc_msgSend"
+                  moduleName = "Qi_ObjcMsgHook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fa11ing1eaf/MacOS/Qi_ObjcMsgHook/Qi_ObjcMsgHook/Qi_ObjcMsgHook/QiLagMonitor/QiCallTraceCore.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "393"
+                  endingLineNumber = "393"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "6093D36D-6FB3-4CBA-8E42-AEA230B416C1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x100b936e4">
+            <Locations>
+               <Location
+                  uuid = "6093D36D-6FB3-4CBA-8E42-AEA230B416C1 - 1444f155bb2205fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hook_Objc_msgSend"
+                  moduleName = "Qi_ObjcMsgHook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fa11ing1eaf/MacOS/Qi_ObjcMsgHook/Qi_ObjcMsgHook/Qi_ObjcMsgHook/QiLagMonitor/QiCallTraceCore.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "429"
+                  endingLineNumber = "429"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
