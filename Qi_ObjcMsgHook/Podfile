@@ -5,5 +5,7 @@ target 'Qi_ObjcMsgHook' do
 
 	pod 'FMDB'
 	pod 'ReactiveCocoa', '=2.3'
+  
+  pod 'QiMonitor', :path => '../QiMonitor/'
 
 end

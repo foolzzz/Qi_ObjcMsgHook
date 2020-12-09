@@ -1,0 +1,30 @@
+{
+  "name": "QiMonitor",
+  "version": "0.1.0",
+  "summary": "A short description of QiMonitor.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/foolzzz/QiMonitor",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "foolzzz": "foolzzz"
+  },
+  "source": {
+    "git": "https://github.com/foolzzz/QiMonitor.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "QiMonitor/Classes/**/*",
+  "dependencies": {
+    "ReactiveCocoa": [
+      "~> 2.3"
+    ],
+    "FMDB": [
+
+    ]
+  }
+}

@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A625ACF13DBAB233B95800536E17DCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		415B2623DD7C1501B04A3BEDC1C62038 /* Pods-QiMonitor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9436055F2C892ECF0A74000D4AC9CACD /* Pods-QiMonitor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5810A022F10AC44A5DCEEBD53D2B4B81 /* Pods-QiMonitor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC1FE74A0D2E664E8AAEDBB99F014D6 /* Pods-QiMonitor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		640C04785F5CCCCC8749FE5AC38A877C /* Pods-QiMonitor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABC3247CD168135C95F023DBD2E5019 /* Pods-QiMonitor_Tests-dummy.m */; };
+		651FBF71D46DD38EAE0373B10988897D /* QiMonitor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 635C249B3E0520C3F4B3D4CE0F54C40F /* QiMonitor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A9C64E4F0F78833B4C9C06DD86089C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7C91812F7D936FE191380FCD7FD4797E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C52EBE69644600FCCC40F3B786E282DE /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE58AA3C3FE5FA00DB10545B73388A /* ReplaceMe.m */; };
+		E644C68EF1E94BBDAD9936681CD6DAEB /* QiMonitor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF87C0F1F99C04A3EA111BC499398E12 /* QiMonitor-dummy.m */; };
+		E930A56BC2B3A4BFC982AC727404A5AC /* Pods-QiMonitor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95965D898875392C5520B97FA80CB6D4 /* Pods-QiMonitor_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E371655F0BA6E1FBCCBD8D1B7D66599 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99B209973383533AB2CB331EEA1831F7;
+			remoteInfo = QiMonitor;
+		};
+		73B19ADA14520BEA7CB68FE596E3C6AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 961D02B39C0EE997A5DF188C6B297D10;
+			remoteInfo = "Pods-QiMonitor_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		051332DEF708BFCE9AD03F40722D9EE3 /* QiMonitor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QiMonitor.modulemap; sourceTree = "<group>"; };
+		09ACF17B7A6F03B4E15B3D5F7AAA7D02 /* Pods-QiMonitor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QiMonitor_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		22903A4A603CE7727E2B0AF0BAD935EE /* Pods-QiMonitor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QiMonitor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2A13F7082A21962AC94D1935B6038CA9 /* Pods-QiMonitor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QiMonitor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2C66A76D04F1532DEC37157B0C6AEE31 /* Pods_QiMonitor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QiMonitor_Tests.framework; path = "Pods-QiMonitor_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CBF582126FFC61DE72220AB93CB7537 /* QiMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QiMonitor.framework; path = QiMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3248743FB3A7F3BDFF88D0DBAE2EA8CE /* Pods-QiMonitor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QiMonitor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3ABC3247CD168135C95F023DBD2E5019 /* Pods-QiMonitor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QiMonitor_Tests-dummy.m"; sourceTree = "<group>"; };
+		46384FFA8EA6F56E167FD6D462443576 /* Pods-QiMonitor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QiMonitor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B3B12FCF9D9184C7E24B7222974469B /* QiMonitor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QiMonitor-Info.plist"; sourceTree = "<group>"; };
+		523FCF5A59945B04DBAC884ADDEE3FB9 /* Pods_QiMonitor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QiMonitor_Example.framework; path = "Pods-QiMonitor_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA0D37DE4DF257EEF66AF750E1A4A66 /* Pods-QiMonitor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QiMonitor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		635C249B3E0520C3F4B3D4CE0F54C40F /* QiMonitor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QiMonitor-umbrella.h"; sourceTree = "<group>"; };
+		6E8FC318A37BDC0191731CECF5739C0F /* Pods-QiMonitor_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QiMonitor_Example-Info.plist"; sourceTree = "<group>"; };
+		78897A3BBBAE56C4938E984F5A804437 /* QiMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QiMonitor.release.xcconfig; sourceTree = "<group>"; };
+		902B4F6B1590219DEB433111C61687E7 /* Pods-QiMonitor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QiMonitor_Tests.modulemap"; sourceTree = "<group>"; };
+		9436055F2C892ECF0A74000D4AC9CACD /* Pods-QiMonitor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QiMonitor_Example-umbrella.h"; sourceTree = "<group>"; };
+		95965D898875392C5520B97FA80CB6D4 /* Pods-QiMonitor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QiMonitor_Example-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EEE58AA3C3FE5FA00DB10545B73388A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = QiMonitor/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		AAC1FE74A0D2E664E8AAEDBB99F014D6 /* Pods-QiMonitor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QiMonitor_Tests-umbrella.h"; sourceTree = "<group>"; };
+		ACEF97DFA36F9A32253C22390C9ED381 /* Pods-QiMonitor_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QiMonitor_Tests-Info.plist"; sourceTree = "<group>"; };
+		B0EFCB5B52EE6D465116D7EE4C402E85 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B7A31795DE1F2F0FB9BB458BE1C1F566 /* Pods-QiMonitor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QiMonitor_Example.modulemap"; sourceTree = "<group>"; };
+		BF87C0F1F99C04A3EA111BC499398E12 /* QiMonitor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QiMonitor-dummy.m"; sourceTree = "<group>"; };
+		C358EA12DBC1AB19912B209D21F2F62B /* QiMonitor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QiMonitor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D04BFA78957FD1DA74EB2894CB74DBD6 /* Pods-QiMonitor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QiMonitor_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D1008E3A5B8BCA2E5A37F77C9E33ACA3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DD243F704D2832C27DB236EBFBD2CA6B /* QiMonitor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QiMonitor-prefix.pch"; sourceTree = "<group>"; };
+		F6C414CE0B5B7A9ED3A8C72480496E8C /* QiMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QiMonitor.debug.xcconfig; sourceTree = "<group>"; };
+		F7501C036A8610A74F3C56CB7B697737 /* Pods-QiMonitor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QiMonitor_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F894AE69F952AB1A0C251F459DBD90F1 /* Pods-QiMonitor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QiMonitor_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAB854C3AEB08AE8239C88C36625A585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A625ACF13DBAB233B95800536E17DCB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7325539D3543513CFDE7DD38491BFD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C91812F7D936FE191380FCD7FD4797E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F120A47334275A4623A3B83C53270F72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A9C64E4F0F78833B4C9C06DD86089C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D153CF5CAE138ADBBCD9FE3625B3678 /* Pods-QiMonitor_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				902B4F6B1590219DEB433111C61687E7 /* Pods-QiMonitor_Tests.modulemap */,
+				22903A4A603CE7727E2B0AF0BAD935EE /* Pods-QiMonitor_Tests-acknowledgements.markdown */,
+				2A13F7082A21962AC94D1935B6038CA9 /* Pods-QiMonitor_Tests-acknowledgements.plist */,
+				3ABC3247CD168135C95F023DBD2E5019 /* Pods-QiMonitor_Tests-dummy.m */,
+				ACEF97DFA36F9A32253C22390C9ED381 /* Pods-QiMonitor_Tests-Info.plist */,
+				AAC1FE74A0D2E664E8AAEDBB99F014D6 /* Pods-QiMonitor_Tests-umbrella.h */,
+				46384FFA8EA6F56E167FD6D462443576 /* Pods-QiMonitor_Tests.debug.xcconfig */,
+				F894AE69F952AB1A0C251F459DBD90F1 /* Pods-QiMonitor_Tests.release.xcconfig */,
+			);
+			name = "Pods-QiMonitor_Tests";
+			path = "Target Support Files/Pods-QiMonitor_Tests";
+			sourceTree = "<group>";
+		};
+		3FD2B3774AD1A7D369BDF58E0D381A6D /* Pods-QiMonitor_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B7A31795DE1F2F0FB9BB458BE1C1F566 /* Pods-QiMonitor_Example.modulemap */,
+				5AA0D37DE4DF257EEF66AF750E1A4A66 /* Pods-QiMonitor_Example-acknowledgements.markdown */,
+				3248743FB3A7F3BDFF88D0DBAE2EA8CE /* Pods-QiMonitor_Example-acknowledgements.plist */,
+				95965D898875392C5520B97FA80CB6D4 /* Pods-QiMonitor_Example-dummy.m */,
+				F7501C036A8610A74F3C56CB7B697737 /* Pods-QiMonitor_Example-frameworks.sh */,
+				6E8FC318A37BDC0191731CECF5739C0F /* Pods-QiMonitor_Example-Info.plist */,
+				9436055F2C892ECF0A74000D4AC9CACD /* Pods-QiMonitor_Example-umbrella.h */,
+				09ACF17B7A6F03B4E15B3D5F7AAA7D02 /* Pods-QiMonitor_Example.debug.xcconfig */,
+				D04BFA78957FD1DA74EB2894CB74DBD6 /* Pods-QiMonitor_Example.release.xcconfig */,
+			);
+			name = "Pods-QiMonitor_Example";
+			path = "Target Support Files/Pods-QiMonitor_Example";
+			sourceTree = "<group>";
+		};
+		50800C4D34E0ADF94F69A444D5119D88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				523FCF5A59945B04DBAC884ADDEE3FB9 /* Pods_QiMonitor_Example.framework */,
+				2C66A76D04F1532DEC37157B0C6AEE31 /* Pods_QiMonitor_Tests.framework */,
+				2CBF582126FFC61DE72220AB93CB7537 /* QiMonitor.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61C6A1663DEED303573FE7CC5F174910 /* QiMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				9EEE58AA3C3FE5FA00DB10545B73388A /* ReplaceMe.m */,
+				C0F4919B301C8874D908C62F6DCF9DEA /* Pod */,
+				C4CF0CDB158092732496D7A78D82EC18 /* Support Files */,
+			);
+			name = QiMonitor;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8CFD58C65B615C3CB4285AC4384368FC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61C6A1663DEED303573FE7CC5F174910 /* QiMonitor */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C0F4919B301C8874D908C62F6DCF9DEA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B0EFCB5B52EE6D465116D7EE4C402E85 /* LICENSE */,
+				C358EA12DBC1AB19912B209D21F2F62B /* QiMonitor.podspec */,
+				D1008E3A5B8BCA2E5A37F77C9E33ACA3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C4CF0CDB158092732496D7A78D82EC18 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				051332DEF708BFCE9AD03F40722D9EE3 /* QiMonitor.modulemap */,
+				BF87C0F1F99C04A3EA111BC499398E12 /* QiMonitor-dummy.m */,
+				4B3B12FCF9D9184C7E24B7222974469B /* QiMonitor-Info.plist */,
+				DD243F704D2832C27DB236EBFBD2CA6B /* QiMonitor-prefix.pch */,
+				635C249B3E0520C3F4B3D4CE0F54C40F /* QiMonitor-umbrella.h */,
+				F6C414CE0B5B7A9ED3A8C72480496E8C /* QiMonitor.debug.xcconfig */,
+				78897A3BBBAE56C4938E984F5A804437 /* QiMonitor.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QiMonitor";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8CFD58C65B615C3CB4285AC4384368FC /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				50800C4D34E0ADF94F69A444D5119D88 /* Products */,
+				E84F3F42B87E0001F9D6AE19F05BD245 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E84F3F42B87E0001F9D6AE19F05BD245 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FD2B3774AD1A7D369BDF58E0D381A6D /* Pods-QiMonitor_Example */,
+				3D153CF5CAE138ADBBCD9FE3625B3678 /* Pods-QiMonitor_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		640B4C271B217CB97D98F42E7640181F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5810A022F10AC44A5DCEEBD53D2B4B81 /* Pods-QiMonitor_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC9A86B0E58184D43DC15BE82772C1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415B2623DD7C1501B04A3BEDC1C62038 /* Pods-QiMonitor_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D57ABD7A1D165937D98FD49E15E347 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651FBF71D46DD38EAE0373B10988897D /* QiMonitor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4A128F2CED868CCA0336D872FC838902 /* Pods-QiMonitor_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 753BC57D3F9C3B62DC1D25A4B2F3AFEF /* Build configuration list for PBXNativeTarget "Pods-QiMonitor_Tests" */;
+			buildPhases = (
+				640B4C271B217CB97D98F42E7640181F /* Headers */,
+				D93CCEAF01D552EF17C73268793C2D7F /* Sources */,
+				F120A47334275A4623A3B83C53270F72 /* Frameworks */,
+				6C3413747ED52FC2F51D509A8E245317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27BC6B0B5131901DC8D72679591096D7 /* PBXTargetDependency */,
+			);
+			name = "Pods-QiMonitor_Tests";
+			productName = "Pods-QiMonitor_Tests";
+			productReference = 2C66A76D04F1532DEC37157B0C6AEE31 /* Pods_QiMonitor_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		961D02B39C0EE997A5DF188C6B297D10 /* Pods-QiMonitor_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1512CEE919A0CE983AC90AD391CB3F63 /* Build configuration list for PBXNativeTarget "Pods-QiMonitor_Example" */;
+			buildPhases = (
+				8FC9A86B0E58184D43DC15BE82772C1F /* Headers */,
+				7FDEB9663BA2D64578440632B4569181 /* Sources */,
+				C7325539D3543513CFDE7DD38491BFD8 /* Frameworks */,
+				07E1CA768355CE95A3EA78533C913761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				742C60FF10504AB44898F8325C9ADFEA /* PBXTargetDependency */,
+			);
+			name = "Pods-QiMonitor_Example";
+			productName = "Pods-QiMonitor_Example";
+			productReference = 523FCF5A59945B04DBAC884ADDEE3FB9 /* Pods_QiMonitor_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99B209973383533AB2CB331EEA1831F7 /* QiMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0AF6C2338D15097E0DEF78A128B34AE /* Build configuration list for PBXNativeTarget "QiMonitor" */;
+			buildPhases = (
+				F3D57ABD7A1D165937D98FD49E15E347 /* Headers */,
+				0FA2AA08E9D41BA1BA2F46070A00EA48 /* Sources */,
+				BAB854C3AEB08AE8239C88C36625A585 /* Frameworks */,
+				8138F70571357C4A2E34724960BDA47D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QiMonitor;
+			productName = QiMonitor;
+			productReference = 2CBF582126FFC61DE72220AB93CB7537 /* QiMonitor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 50800C4D34E0ADF94F69A444D5119D88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				961D02B39C0EE997A5DF188C6B297D10 /* Pods-QiMonitor_Example */,
+				4A128F2CED868CCA0336D872FC838902 /* Pods-QiMonitor_Tests */,
+				99B209973383533AB2CB331EEA1831F7 /* QiMonitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07E1CA768355CE95A3EA78533C913761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C3413747ED52FC2F51D509A8E245317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8138F70571357C4A2E34724960BDA47D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FA2AA08E9D41BA1BA2F46070A00EA48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E644C68EF1E94BBDAD9936681CD6DAEB /* QiMonitor-dummy.m in Sources */,
+				C52EBE69644600FCCC40F3B786E282DE /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FDEB9663BA2D64578440632B4569181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E930A56BC2B3A4BFC982AC727404A5AC /* Pods-QiMonitor_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D93CCEAF01D552EF17C73268793C2D7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				640C04785F5CCCCC8749FE5AC38A877C /* Pods-QiMonitor_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27BC6B0B5131901DC8D72679591096D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QiMonitor_Example";
+			target = 961D02B39C0EE997A5DF188C6B297D10 /* Pods-QiMonitor_Example */;
+			targetProxy = 73B19ADA14520BEA7CB68FE596E3C6AB /* PBXContainerItemProxy */;
+		};
+		742C60FF10504AB44898F8325C9ADFEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QiMonitor;
+			target = 99B209973383533AB2CB331EEA1831F7 /* QiMonitor */;
+			targetProxy = 4E371655F0BA6E1FBCCBD8D1B7D66599 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		075F959396008003702CCCF52B1FAB10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09ACF17B7A6F03B4E15B3D5F7AAA7D02 /* Pods-QiMonitor_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QiMonitor_Example/Pods-QiMonitor_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QiMonitor_Example/Pods-QiMonitor_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		257D69C5BCE4ADC7F9B769DF650475AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F894AE69F952AB1A0C251F459DBD90F1 /* Pods-QiMonitor_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QiMonitor_Tests/Pods-QiMonitor_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QiMonitor_Tests/Pods-QiMonitor_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		40CA19CE0ECB212952D3F8AC14EBB3D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46384FFA8EA6F56E167FD6D462443576 /* Pods-QiMonitor_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QiMonitor_Tests/Pods-QiMonitor_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QiMonitor_Tests/Pods-QiMonitor_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4EBC741460BC710C963D24CAAB3BC925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A40FB7C4B9460AE765A736AB575EEB32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B1A672E20406557937431F42E39F20A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6C414CE0B5B7A9ED3A8C72480496E8C /* QiMonitor.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QiMonitor/QiMonitor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QiMonitor/QiMonitor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QiMonitor/QiMonitor.modulemap";
+				PRODUCT_MODULE_NAME = QiMonitor;
+				PRODUCT_NAME = QiMonitor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3A6F8030E87248BE28C2BFD21C1C504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78897A3BBBAE56C4938E984F5A804437 /* QiMonitor.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QiMonitor/QiMonitor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QiMonitor/QiMonitor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QiMonitor/QiMonitor.modulemap";
+				PRODUCT_MODULE_NAME = QiMonitor;
+				PRODUCT_NAME = QiMonitor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5A5EFC9CB0A4B35A61A0E76F4AE74F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D04BFA78957FD1DA74EB2894CB74DBD6 /* Pods-QiMonitor_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QiMonitor_Example/Pods-QiMonitor_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QiMonitor_Example/Pods-QiMonitor_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1512CEE919A0CE983AC90AD391CB3F63 /* Build configuration list for PBXNativeTarget "Pods-QiMonitor_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075F959396008003702CCCF52B1FAB10 /* Debug */,
+				C5A5EFC9CB0A4B35A61A0E76F4AE74F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EBC741460BC710C963D24CAAB3BC925 /* Debug */,
+				A40FB7C4B9460AE765A736AB575EEB32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		753BC57D3F9C3B62DC1D25A4B2F3AFEF /* Build configuration list for PBXNativeTarget "Pods-QiMonitor_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40CA19CE0ECB212952D3F8AC14EBB3D7 /* Debug */,
+				257D69C5BCE4ADC7F9B769DF650475AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0AF6C2338D15097E0DEF78A128B34AE /* Build configuration list for PBXNativeTarget "QiMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1A672E20406557937431F42E39F20A9 /* Debug */,
+				C3A6F8030E87248BE28C2BFD21C1C504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

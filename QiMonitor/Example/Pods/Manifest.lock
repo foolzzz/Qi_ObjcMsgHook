@@ -1,0 +1,16 @@
+PODS:
+  - QiMonitor (0.1.0)
+
+DEPENDENCIES:
+  - QiMonitor (from `../`)
+
+EXTERNAL SOURCES:
+  QiMonitor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QiMonitor: 308788595d6d6640034f10e99d01dccd0ba3551c
+
+PODFILE CHECKSUM: 2c238939da4c3a7669b170da6d18e6be3ff99faf
+
+COCOAPODS: 1.10.0.beta.2

@@ -13,14 +13,6 @@
 		F14ED95723850FF500D35A9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F14ED95623850FF500D35A9D /* Assets.xcassets */; };
 		F14ED95A23850FF500D35A9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F14ED95823850FF500D35A9D /* LaunchScreen.storyboard */; };
 		F14ED95D23850FF500D35A9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F14ED95C23850FF500D35A9D /* main.m */; };
-		F14ED966238516FC00D35A9D /* QiCPUMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = F14ED965238516FC00D35A9D /* QiCPUMonitor.m */; };
-		F14ED96C238517FE00D35A9D /* QiCallTraceTimeCostModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F14ED96B238517FE00D35A9D /* QiCallTraceTimeCostModel.m */; };
-		F14ED9722385182E00D35A9D /* QiCallStack.m in Sources */ = {isa = PBXBuildFile; fileRef = F14ED9712385182E00D35A9D /* QiCallStack.m */; };
-		F14ED9752385184000D35A9D /* QiCallStackModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F14ED9742385183F00D35A9D /* QiCallStackModel.m */; };
-		F14ED9782385193C00D35A9D /* QiLagMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = F14ED9772385193C00D35A9D /* QiLagMonitor.m */; };
-		F14ED97B2385196500D35A9D /* QiLagDB.m in Sources */ = {isa = PBXBuildFile; fileRef = F14ED97A2385196500D35A9D /* QiLagDB.m */; };
-		F14ED97E238519EC00D35A9D /* QiCallTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = F14ED97D238519EC00D35A9D /* QiCallTrace.m */; };
-		F14ED98523851AA300D35A9D /* QiCallTraceCore.c in Sources */ = {isa = PBXBuildFile; fileRef = F14ED98423851AA300D35A9D /* QiCallTraceCore.c */; };
 		F14ED98B238531C800D35A9D /* QiRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14ED98A238531C800D35A9D /* QiRootViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -37,23 +29,6 @@
 		F14ED95923850FF500D35A9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F14ED95B23850FF500D35A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F14ED95C23850FF500D35A9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F14ED964238516FC00D35A9D /* QiCPUMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiCPUMonitor.h; sourceTree = "<group>"; };
-		F14ED965238516FC00D35A9D /* QiCPUMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiCPUMonitor.m; sourceTree = "<group>"; };
-		F14ED96A238517FE00D35A9D /* QiCallTraceTimeCostModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiCallTraceTimeCostModel.h; sourceTree = "<group>"; };
-		F14ED96B238517FE00D35A9D /* QiCallTraceTimeCostModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiCallTraceTimeCostModel.m; sourceTree = "<group>"; };
-		F14ED96D2385181A00D35A9D /* QiCallLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiCallLib.h; sourceTree = "<group>"; };
-		F14ED9702385182E00D35A9D /* QiCallStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiCallStack.h; sourceTree = "<group>"; };
-		F14ED9712385182E00D35A9D /* QiCallStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiCallStack.m; sourceTree = "<group>"; };
-		F14ED9732385183F00D35A9D /* QiCallStackModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiCallStackModel.h; sourceTree = "<group>"; };
-		F14ED9742385183F00D35A9D /* QiCallStackModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiCallStackModel.m; sourceTree = "<group>"; };
-		F14ED9762385193C00D35A9D /* QiLagMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiLagMonitor.h; sourceTree = "<group>"; };
-		F14ED9772385193C00D35A9D /* QiLagMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiLagMonitor.m; sourceTree = "<group>"; };
-		F14ED9792385196500D35A9D /* QiLagDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiLagDB.h; sourceTree = "<group>"; };
-		F14ED97A2385196500D35A9D /* QiLagDB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiLagDB.m; sourceTree = "<group>"; };
-		F14ED97C238519EC00D35A9D /* QiCallTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiCallTrace.h; sourceTree = "<group>"; };
-		F14ED97D238519EC00D35A9D /* QiCallTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiCallTrace.m; sourceTree = "<group>"; };
-		F14ED98323851AA300D35A9D /* QiCallTraceCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiCallTraceCore.h; sourceTree = "<group>"; };
-		F14ED98423851AA300D35A9D /* QiCallTraceCore.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = QiCallTraceCore.c; sourceTree = "<group>"; };
 		F14ED989238531C800D35A9D /* QiRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiRootViewController.h; sourceTree = "<group>"; };
 		F14ED98A238531C800D35A9D /* QiRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiRootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,7 +75,6 @@
 		F14ED94923850FF400D35A9D /* Qi_ObjcMsgHook */ = {
 			isa = PBXGroup;
 			children = (
-				F14ED9632385108800D35A9D /* QiLagMonitor */,
 				F14ED94A23850FF400D35A9D /* AppDelegate.h */,
 				F14ED94B23850FF400D35A9D /* AppDelegate.m */,
 				F14ED94D23850FF400D35A9D /* SceneDelegate.h */,
@@ -113,30 +87,6 @@
 				F14ED95C23850FF500D35A9D /* main.m */,
 			);
 			path = Qi_ObjcMsgHook;
-			sourceTree = "<group>";
-		};
-		F14ED9632385108800D35A9D /* QiLagMonitor */ = {
-			isa = PBXGroup;
-			children = (
-				F14ED9762385193C00D35A9D /* QiLagMonitor.h */,
-				F14ED9772385193C00D35A9D /* QiLagMonitor.m */,
-				F14ED964238516FC00D35A9D /* QiCPUMonitor.h */,
-				F14ED965238516FC00D35A9D /* QiCPUMonitor.m */,
-				F14ED9792385196500D35A9D /* QiLagDB.h */,
-				F14ED97A2385196500D35A9D /* QiLagDB.m */,
-				F14ED96D2385181A00D35A9D /* QiCallLib.h */,
-				F14ED9702385182E00D35A9D /* QiCallStack.h */,
-				F14ED9712385182E00D35A9D /* QiCallStack.m */,
-				F14ED9732385183F00D35A9D /* QiCallStackModel.h */,
-				F14ED9742385183F00D35A9D /* QiCallStackModel.m */,
-				F14ED96A238517FE00D35A9D /* QiCallTraceTimeCostModel.h */,
-				F14ED96B238517FE00D35A9D /* QiCallTraceTimeCostModel.m */,
-				F14ED97C238519EC00D35A9D /* QiCallTrace.h */,
-				F14ED97D238519EC00D35A9D /* QiCallTrace.m */,
-				F14ED98323851AA300D35A9D /* QiCallTraceCore.h */,
-				F14ED98423851AA300D35A9D /* QiCallTraceCore.c */,
-			);
-			path = QiLagMonitor;
 			sourceTree = "<group>";
 		};
 		F8B0AB9119CEB0AADB20D276 /* Frameworks */ = {
@@ -242,18 +192,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F14ED97E238519EC00D35A9D /* QiCallTrace.m in Sources */,
 				F14ED94C23850FF400D35A9D /* AppDelegate.m in Sources */,
-				F14ED966238516FC00D35A9D /* QiCPUMonitor.m in Sources */,
 				F14ED95D23850FF500D35A9D /* main.m in Sources */,
-				F14ED98523851AA300D35A9D /* QiCallTraceCore.c in Sources */,
 				F14ED98B238531C800D35A9D /* QiRootViewController.m in Sources */,
-				F14ED9722385182E00D35A9D /* QiCallStack.m in Sources */,
-				F14ED9782385193C00D35A9D /* QiLagMonitor.m in Sources */,
-				F14ED96C238517FE00D35A9D /* QiCallTraceTimeCostModel.m in Sources */,
 				F14ED94F23850FF400D35A9D /* SceneDelegate.m in Sources */,
-				F14ED97B2385196500D35A9D /* QiLagDB.m in Sources */,
-				F14ED9752385184000D35A9D /* QiCallStackModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

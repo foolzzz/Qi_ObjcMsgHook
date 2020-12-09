@@ -1,0 +1,6 @@
+framework module QiMonitor {
+  umbrella header "QiMonitor-umbrella.h"
+
+  export *
+  module * { export * }
+}
